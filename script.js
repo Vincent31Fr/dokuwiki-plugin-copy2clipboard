@@ -58,7 +58,7 @@ jQuery(function() {
         text=text.replace(/\n/g, '\r\n' );
       }
       await navigator.clipboard.writeText(text);
-      messageBox('cp2clipok', LANG.plugins.copy2clipboard.copied);
+      //messageBox('cp2clipok', LANG.plugins.copy2clipboard.copied);
     } catch (err) {
       messageBox('cp2clipnok', LANG.plugins.copy2clipboard.error);
     }
