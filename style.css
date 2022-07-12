@@ -15,7 +15,7 @@ div.dokuwiki {
       width: 16px; /*17px;*/
       height: 20px; /*22px;*/
 	  border: none;
-	  opacity: 80%;
+	  opacity: 50%;
     }
     &.desktop button {
       visibility: hidden;
