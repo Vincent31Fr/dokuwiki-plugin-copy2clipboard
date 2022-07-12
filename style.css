@@ -9,10 +9,12 @@ div.dokuwiki {
       position: absolute;
       top: 0;
       right: 0;
-      background: #bbb url( 'clipmini.svg' ) 0 0 no-repeat;
+	  margin: 5px;
+      background: url( 'clipmini.svg' ) 0 0 no-repeat;
       background-size: 12px; /*15px;*/
-      width: 13px; /*17px;*/
-      height: 18px; /*22px;*/
+      width: 16px; /*17px;*/
+      height: 20px; /*22px;*/
+	  border: none;
     }
     &.desktop button {
       visibility: hidden;
